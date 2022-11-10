@@ -4,3 +4,7 @@
 # IO
 
 [详细](new/IO/IO.md)
+
+# Exception
+
+[详细](new/Exception/Exception.md)
