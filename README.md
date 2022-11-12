@@ -8,3 +8,7 @@
 # Exception
 
 [详细](new/Exception/Exception.md)
+
+# Collection
+
+[详细](new/Collection/Collection.md)
