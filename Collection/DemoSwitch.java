@@ -4,6 +4,5 @@ public class DemoSwitch {
     public static void main(String[] args) {
 //        queueDemo.test01();
         queueDemo.test02();
-
     }
 }
