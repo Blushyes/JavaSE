@@ -3,12 +3,16 @@
 
 # IO
 
-[详细](new/IO/IO.md)
+[详细](IO/IO.md)
 
 # Exception
 
-[详细](new/Exception/Exception.md)
+[详细](Exception/Exception.md)
 
 # Collection
 
-[详细](new/Collection/Collection.md)
+[详细](Collection/Collection.md)
+
+# Thread
+
+[详细](Thread/Thread.md)

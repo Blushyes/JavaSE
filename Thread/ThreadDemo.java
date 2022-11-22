@@ -107,3 +107,21 @@ class ThreadTestSynchro implements Runnable{
         }
     }
 }
+
+class ThreadTestSynchroCodeBlock implements Runnable{
+    private int count = 0;
+
+    @Override
+    public void run() {
+        for (int i = 0; i < 10; i++) {
+            synchronized (this){    //利用代码块实现同步
+                System.out.println(++count);
+            }
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+}
