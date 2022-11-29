@@ -116,7 +116,7 @@ System.out.println(deque.size());   //6
 
 `offerFirst`头插，`offerLast`尾插。
 
-## 测试Deque实现栈是从那边插和删
+## 测试Deque实现栈是从哪边进行操作
 
 ~~~java
 Deque<Integer> stack = new LinkedList<>();
