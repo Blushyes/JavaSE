@@ -57,4 +57,22 @@ public class QueueDemo {
             System.out.print(it + " ");
         }
     }
+
+    public void test03() {
+        Deque<Integer> stack = new LinkedList<>();
+
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+
+        System.out.println(stack);  // [3, 2, 1]
+
+        stack.pop();
+
+        System.out.println(stack);  // [2, 1]
+
+        stack.pop();
+
+        System.out.println(stack);  // [1]
+    }
 }

@@ -115,3 +115,25 @@ System.out.println(deque.size());   //6
 ~~~
 
 `offerFirst`头插，`offerLast`尾插。
+
+## 测试Deque实现栈是从那边插和删
+
+~~~java
+Deque<Integer> stack = new LinkedList<>();
+
+stack.push(1);
+stack.push(2);
+stack.push(3);
+
+System.out.println(stack);  // [3, 2, 1]
+
+stack.pop();
+
+System.out.println(stack);  // [2, 1]
+
+stack.pop();
+
+System.out.println(stack);  // [1]
+~~~
+
+可以看到是**在头部进行插入和删除。**
